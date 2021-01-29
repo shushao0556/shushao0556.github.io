@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="layui/css/layui.css"  media="all">
+	<script src="layui/layui.js"></script>
+	<title>博客首页</title>
+</head>
+<body>
+	<div class="layui-fluid"> 
+		<div class="layui-row">
+			<div class="layui-col-xs6 layui-col-md12">
+			  <ul class="layui-nav layui-bg-blue">
+			    <li class="layui-nav-item layui-this"><a href="/index.html">博客首页</a></li>
+			    <li class="layui-nav-item"><a href="/2020java/">2020java教程</a></li>
+			    <li class="layui-nav-item"><a href="/2020javaweb/">2020javaweb</a></li>
+			    <li class="layui-nav-item">
+			      <a href="javascript:;">2020java高级框架</a>
+			      <dl class="layui-nav-child">
+			        <dd><a href="/spring/">Spring</a></dd>
+			        <dd><a href="/springmvc/">SpringMVC</a></dd>
+			        <dd><a href="/mybatis/">Mybatis</a></dd>
+			      </dl>
+			    </li>
+				<li class="layui-nav-item"><a href="/2020javawebservice/">2020java微服务架构</a></li>
+			  </ul> 
+			</div>
+		</div>
+	</div>
+	<script>
+	//JavaScript代码区域
+	layui.use('element', function(){
+	  var element = layui.element;
+	  
+	});
+	</script>
+</body>
+</html>
